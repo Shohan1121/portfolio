@@ -228,7 +228,7 @@ export const articles = [
     ],
   },
   {
-    slug: 'figma-to-pixel-perfect-elementor-website', category: 'WordPress development', readTime: '10 min read', date: 'July 2026', image: { src: '/projects-ss/figma.png', alt: 'Figma to Elementor Pro pixel perfect website workflow' },
+    slug: 'figma-to-pixel-perfect-elementor-website', category: 'WordPress development', readTime: '10 min read', date: 'July 2026', image: { src: './projects-ss/figma.png', alt: 'Figma to Elementor Pro pixel perfect website workflow' },
     title: 'Figma to Pixel Perfect Elementor Website',
     excerpt: 'Learn how to transform Figma designs into pixel-perfect Elementor Pro websites with this comprehensive step-by-step guide. From design handoff to final deployment, master the art of converting static mockups into fully responsive WordPress sites.',
     body: [
