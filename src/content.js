@@ -161,6 +161,7 @@ export const photos = [
 export const articles = [
   {
     slug: 'wordpress-content-system', category: 'WordPress development', readTime: '8 min read', date: 'July 2026', image: photos[1],
+    aside: 'A site that is easy to update is worth more than a site that is only beautiful on launch day.',
     title: 'How to build a WordPress site your team can actually maintain',
     excerpt: 'The strongest WordPress builds are not just attractive on launch day. They give editors a reliable, flexible system for the work that follows.',
     body: [
@@ -173,6 +174,7 @@ export const articles = [
   },
   {
     slug: 'react-interface-performance', category: 'React', readTime: '7 min read', date: 'July 2026', image: photos[2],
+    aside: 'Performance is not only a score. It is the feeling that the interface responds without hesitation.',
     title: 'React interface performance: the design choices visitors notice first',
     excerpt: 'Performance is not only a score. It is the feeling that the interface understands what a visitor wants to do and responds without hesitation.',
     body: [
@@ -185,6 +187,7 @@ export const articles = [
   },
   {
     slug: 'website-content-audit', category: 'Content strategy', readTime: '6 min read', date: 'July 2026', image: photos[0],
+    aside: 'A redesign becomes simpler when every page earns its place before the visual work begins.',
     title: 'A content audit that makes a website redesign easier',
     excerpt: 'Before a redesign changes the interface, it should clarify what the website is responsible for saying, proving, and helping people do.',
     body: [
@@ -196,6 +199,7 @@ export const articles = [
   },
   {
     slug: 'elementor-workflow-for-teams', category: 'WordPress development', readTime: '7 min read', date: 'July 2026', image: photos[1],
+    aside: 'Consistent editing habits matter more than perfect templates when a team builds together.',
     title: 'An Elementor Pro workflow that keeps teams productive',
     excerpt: 'A well-organized Elementor workspace does more than produce good-looking pages. It makes daily editing predictable and reduces the number of questions sent to developers.',
     body: [
@@ -207,6 +211,7 @@ export const articles = [
   },
   {
     slug: 'design-handoff-that-works', category: 'Design', readTime: '5 min read', date: 'July 2026', image: photos[2],
+    aside: 'Clear handoff is built on labeled states, explicit responsive rules, and shared tokens.',
     title: 'Design handoff that actually works for developers',
     excerpt: 'The gap between a polished Figma file and a pixel-perfect website usually comes from unclear structure, missing states, and assumptions that were never written down.',
     body: [
@@ -218,6 +223,7 @@ export const articles = [
   },
   {
     slug: 'maintainable-wordpress-editor-experience', category: 'WordPress development', readTime: '6 min read', date: 'July 2026', image: photos[3],
+    aside: 'The best WordPress build is judged by how confidently an editor can publish months later.',
     title: 'A maintainable WordPress editor experience for non-technical teams',
     excerpt: 'The best WordPress build is not measured by launch day alone. It is measured by how confidently an editor can publish, update, and reorganise content months later.',
     body: [
@@ -228,7 +234,8 @@ export const articles = [
     ],
   },
   {
-    slug: 'figma-to-pixel-perfect-elementor-website', category: 'WordPress development', readTime: '10 min read', date: 'July 2026', image: { src: './projects-ss/figma.png', alt: 'Figma to Elementor Pro pixel perfect website workflow' },
+    slug: 'figma-to-pixel-perfect-elementor-website', category: 'WordPress development', readTime: '10 min read', date: 'July 2026', image: { src: './projects-ss/figma.png',
+    aside: 'Translating Figma to Elementor is about preserving intent, not copying pixels.', alt: 'Figma to Elementor Pro pixel perfect website workflow' },
     title: 'Figma to Pixel Perfect Elementor Website',
     excerpt: 'Learn how to transform Figma designs into pixel-perfect Elementor Pro websites with this comprehensive step-by-step guide. From design handoff to final deployment, master the art of converting static mockups into fully responsive WordPress sites.',
     body: [
@@ -246,5 +253,6 @@ export const articles = [
     ],
   },
 ]
+
 
 
